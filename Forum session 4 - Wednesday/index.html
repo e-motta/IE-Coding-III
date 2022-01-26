@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Coding III Forum: Tuesday</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Survey</h1>
+        <div class="logo">
+            <img src="./survey4.png" alt="Bat-Pikachu!" class="logo-color" width=60>
+        </div>
+    </div>
+    <div class="content">
+        <form>
+            <div class="form-q">
+                <div class="form-left">
+                    <label for="fname">Name:</label>
+                    <label for="email">Email:</label>
+                    <label for="sex">Sex:</label>
+                    <label for="age">Age group:</label>
+                    <label for="o-question">What is your favorite color?</label>
+                    <label for="c-question">Do you like cats?</label>
+                </div>
+                <div class="form-right">
+                    <input type="text" id="fname" name="fname" placeholder="John Doe">
+                    <input type="text" id="email" name="email" placeholder="johndoe@email.com">
+                    <div class="sex">
+                        <input type="radio" id="sex-male" name="sex-male">
+                        <label for="sex-male">Male</label>
+                        <input type="radio" id="sex-female" name="sex-female">
+                        <label for="sex-female">Female</label>
+                    </div>
+                    <select name="age" id="age">
+                        <option value="under18">Under 18</option>
+                        <option value="18orover">18 or over</option>
+                    </select>
+                    <input type="text" id="o-question" name="o-question" placeholder="Red">
+                    <div class="cats">
+                        <input type="radio" id="question-yes" name="question-yes">
+                        <label for="question-yes">Yes</label>
+                        <input type="radio" id="question-no" name="question-no">
+                        <label for="question-no">No</label>
+                    </div>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        Thanks!
+    </div>
+</body>
+</html>

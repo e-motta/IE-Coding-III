@@ -1,0 +1,114 @@
+html * {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+}
+
+body > * {
+    padding: 0 300px 0 300px;
+}
+
+input,
+select {
+    border: 2px solid rgb(53, 53, 75);
+    border-radius: 6px;
+    background-color: aliceblue;
+    padding: 6px;
+}
+
+.header {
+    background-color: rgb(53, 53, 75);
+    color: aliceblue;
+    padding: 10px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    font-weight: 900;
+}
+
+.logo {
+    background-color: aliceblue;
+    border-radius: 20%;
+    padding: 10px
+}
+
+.logo-color {
+
+}
+
+.content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    flex: 1;
+    display: flex;
+}
+
+label,
+input,
+#age,
+.sex,
+.cats {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    background-color: rgb(197, 197, 197);
+    padding-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 350px;
+}
+
+.form-q {
+    display: flex;
+    justify-content: center;
+}
+
+.form-left,
+.form-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-left {
+    align-items: end;
+    padding-right: 10px;
+}
+
+.form-right {
+    padding-left: 10px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+}
+
+.submit input {
+    background-color: rgb(53, 53, 75);
+    color: aliceblue;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: rgb(53, 53, 75);
+    color: aliceblue;
+    padding: 50px 300px;
+    font-size: 18px;
+    text-align: center;
+}
