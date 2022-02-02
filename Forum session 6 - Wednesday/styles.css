@@ -1,0 +1,97 @@
+html * {
+    box-sizing: border-box;
+}
+
+.outer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+#table {
+    display: table;
+    background-color: #212529;
+    border-collapse: collapse;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(235, 235, 235);
+    border: 3px solid black;
+}
+
+#table tr td, #table tr th {
+    border: 3px solid grey;
+    padding: 15px 25px 15px 25px;
+}
+
+.t-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px;
+}
+
+button, input[type=submit] {
+    padding: 10px 20px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 25px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dropdown-c {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+}
+
+#dropdown {
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 25px;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 3px 5px;
+}
+
+td, th, tr, thead, tbody {
+    border: inherit !important;
+}
+
+.bottom, #form, .f-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-outer {
+    flex-direction: column;
+    gap: 20px;
+}
+
+#form {
+    border: 3px solid grey;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-input {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}

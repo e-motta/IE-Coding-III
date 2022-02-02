@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="script.js" defer></script>
+    <title>Table</title>
+</head>
+<body>
+    <div class="outer">
+        <div class="input-container">
+            <div class="mid">
+                <div class="buttons">
+                    <button type="button" id="btn1">Red</button>
+                    <button type="button" id="btn2">Green</button>
+                    <button type="button" id="btn3">Blue</button>
+                </div>
+                <div class="dropdown-c">
+                    <label for="border-size">Border size:</label>
+                    <select name="border-size" id="dropdown">
+                    </select>
+                </div>
+            </div>
+            <div class="bottom">
+                <form id="form">
+                    <div class="f-outer">
+                        <div>Enter the information for the first and second columns:</div>
+                        <div class="form-input">
+                            <div id="form1">
+                                <label for="col1">First:</label>
+                                <input type="text" id="col1" name="col1"><br><br>
+                            </div>
+                            <div id="form2">
+                                <label for="col2">Second:</label>
+                                <input type="text" id="col2" name="col2"><br><br>
+                            </div>
+                            <input type="submit" value="Submit" id="submit">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="t-container">
+            <div id="tc">
+                <table id="table">
+                    <tr>
+                        <th scope="col">Inverso do índice relativo à renda per capita da entidade participante:</th>
+                        <th scope="col">Fator</th>
+                    </tr>
+                    <tr>
+                        <td>Até 0,0045</td>
+                        <td>0,4</td>
+                    </tr>
+                    <tr>
+                        <td>Acima de 0,0045 até 0,0055</td>
+                        <td>0,5</td>
+                    </tr>
+                    <tr>
+                        <td>Acima de 0,0055 até 0,0065</td>
+                        <td>0,6</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                    <tr>
+                        <td>Acima de 0,220</td>
+                        <td>2,5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
