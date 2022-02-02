@@ -1,11 +1,11 @@
 let btn1 = document.getElementById("btn1")
-btn1.addEventListener("click", () => document.getElementById("tc").style.borderColor = "red")
+btn1.addEventListener("click", () => document.getElementById("table").style.borderColor = "red")
 
 let btn2 = document.getElementById("btn2")
-btn2.addEventListener("click", () => document.getElementById("tc").style.borderColor = "green")
+btn2.addEventListener("click", () => document.getElementById("table").style.borderColor = "green")
 
 let btn3 = document.getElementById("btn3")
-btn3.addEventListener("click", () => document.getElementById("tc").style.borderColor = "blue")
+btn3.addEventListener("click", () => document.getElementById("table").style.borderColor = "blue")
 
 let dropdown = document.getElementById("dropdown")
 
@@ -18,4 +18,4 @@ for (let i = 1; i < maxSize; i++) {
     dropdown.appendChild(option)
 }
 
-dropdown.addEventListener("change", () => document.getElementById("tc").style.borderWidth = dropdown.value)
+dropdown.addEventListener("change", () => document.getElementById("table").style.borderWidth = dropdown.value)
